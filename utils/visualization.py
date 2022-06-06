@@ -295,7 +295,6 @@ def save_images3(X, save_path,minn=None,maxx=None,img_num=0,p=0):
     plt.savefig(save_path)
     plt.close()
 import numpy as np
-import cv2
 
 G = [0, 255, 0]
 R = [255, 0, 0]
